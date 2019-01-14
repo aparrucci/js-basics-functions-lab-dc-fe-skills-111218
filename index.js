@@ -19,6 +19,13 @@ distanceFromHqInFeet (50);
 distanceFromHqInFeet (34);
 
  
+function distanceTravelledInFeet (start, end) {
+return Math.abs((start - end) * 264);
+}
+
+distanceTravelledInFeet (43, 48);
+distanceTravelledInFeet (50, 60);
+distanceTravelledInFeet (34, 28);
 
 function calculatesFarePrice (fare) {
   
