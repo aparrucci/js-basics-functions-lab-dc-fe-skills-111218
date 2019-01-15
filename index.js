@@ -33,6 +33,12 @@ if (feet <=400);
  {
   return `gives customers a free sample`;
 } 
+else if (feet >400) {
+  return (feet - 400) * 0.02; 
+}
 }
 
 calculatesFarePrice (43, 44);
+calculatesFarePrice (34, 32);
+calculatesFarePrice (50, 58);
+calculatesFarePrice (34, 24);
