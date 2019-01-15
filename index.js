@@ -33,7 +33,7 @@ if (feet <=400);
  {
   return `gives customers a free sample`;
 } 
-else if (feet >400) {
+if (feet >400) {
   return (feet - 400) * 0.02; 
 }
 }
