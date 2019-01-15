@@ -29,7 +29,6 @@ distanceTravelledInFeet (34, 28);
 
 function calculatesFarePrice (start, destination) {
 let feet = distanceTravelledInFeet (start, destination);
-return feet; 
 if (feet <=400);
  {
   return `gives customers a free sample`;
