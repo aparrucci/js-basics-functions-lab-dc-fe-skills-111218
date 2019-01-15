@@ -20,7 +20,7 @@ distanceFromHqInFeet (34);
 
  
 function distanceTravelledInFeet (start, destination) {
-return Math.abs((start - end) * 264);
+return Math.abs((start - destination) * 264);
 }
 
 distanceTravelledInFeet (43, 48);
