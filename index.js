@@ -27,6 +27,13 @@ distanceTravelledInFeet (43, 48);
 distanceTravelledInFeet (50, 60);
 distanceTravelledInFeet (34, 28);
 
-function calculatesFarePrice (fare) {
-  
+function calculatesFarePrice (start, destination) {
+let feet = distanceTravelledInFeet (start, destination);
+return feet; 
+if (feet <=400);
+ {
+  return `gives customers a free sample`;
+} 
 }
+
+calculatesFarePrice (43, 44);
