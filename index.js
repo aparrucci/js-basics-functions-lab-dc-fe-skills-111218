@@ -29,15 +29,20 @@ distanceTravelledInFeet (34, 28);
 
 function calculatesFarePrice (start, destination) {
 let feet = distanceTravelledInFeet (start, destination);
-if (feet <=400);
+if (feet <=400)
  {
   return `gives customers a free sample`;
 } 
-if (feet >400) {
+if (feet >400, feet <2500) {
   return (feet - 400) * 0.02; 
 }
+
+if (feet >2500) {
+  return `cannot travel that far`; 
 }
 
+
+}
 calculatesFarePrice (43, 44);
 calculatesFarePrice (34, 32);
 calculatesFarePrice (50, 58);
